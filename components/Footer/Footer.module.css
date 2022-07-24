@@ -1,0 +1,41 @@
+.footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 20px;
+}
+
+.footer ul li {
+    margin: 10px 0;
+}
+
+.footer small {
+    display: block;
+    padding: 5px;
+}
+
+.small {
+    text-align: center;
+    opacity: .8;
+    padding: 5px;
+}
+
+.address p {
+    max-width: 30ch;
+}
+
+@media screen and (max-width: 580px) {
+    .links {
+        justify-content: flex-start;
+    }
+}

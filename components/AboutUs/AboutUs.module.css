@@ -1,0 +1,127 @@
+.about {
+    min-height: calc(100vh - 70px);
+}
+
+.about .title {
+    padding: 20px 0;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    width: 100%;
+}
+
+.container>* {
+    grid-column: 1;
+    grid-row: 1;
+    transition: .3s;
+}
+
+.container p {
+    margin: 20px;
+    max-width: 50ch;
+    word-wrap: break-word;
+}
+
+.pagination {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding: 20px;
+    overflow: auto;
+}
+
+.pagination li {
+    font-size: 1.5rem;
+    transition: .3s;
+    cursor: pointer;
+    margin: 8px;
+    padding: 8px;
+    width: max-content;
+    border-bottom: 4px transparent solid;
+}
+
+.pagination li:hover {
+    border-bottom: 4px var(--secondary-color) solid;
+}
+
+.story h2,
+.storyImage {
+    margin: 20px;
+}
+
+.story {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.visiMisi {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.visiMisi h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: var(--primary-color);
+    margin: 10px 20px;
+}
+
+.services ul,
+.why {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    grid-auto-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.why li,
+.services ul li {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.why li h1,
+.services ul li h1 {
+    font-size: 10rem;
+    color: var(--secondary-color);
+}
+
+.why li h2,
+.services ul li h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+}
+
+.why li p {
+    max-width: 45ch;
+    margin: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .pagination {
+        flex-direction: column;
+    }
+    .story {
+        flex-direction: column-reverse;
+    }
+    .visiMisi {
+        flex-direction: column;
+    }
+}

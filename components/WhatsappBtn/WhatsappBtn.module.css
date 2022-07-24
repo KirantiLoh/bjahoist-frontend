@@ -1,0 +1,15 @@
+.whatsappBtn {
+    position: fixed;
+    bottom: -100px;
+    right: 10px;
+    font-size: 3rem;
+    width: 64px;
+    height: 64px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #25d366;
+    transition: .3s;
+    z-index: 2;
+}

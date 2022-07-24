@@ -1,0 +1,21 @@
+.intro {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30px;
+    padding-left: 10px;
+}
+
+.intro h1 {
+    color: #fff;
+    font-size: max(7vw, 3rem);
+    position: relative;
+    padding-left: 15px;
+    border-left: 10px var(--primary-color) solid;
+}
+
+.intro p {
+    max-width: 70ch;
+    font-size: 1.2rem;
+    color: var(--secondary-text-color);
+}

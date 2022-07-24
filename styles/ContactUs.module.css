@@ -1,0 +1,60 @@
+.maps {
+    min-width: 250px;
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+}
+
+.contactPage {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactContainer {
+    display: flex;
+    padding: 60px 0;
+}
+
+.contactForm {
+    z-index: 1;
+    padding: 30px;
+    width: 450px;
+    background-color: var(--secondary-color);
+    flex: 1 1 auto;
+    border-radius: 3px;
+}
+
+.contactForm h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.contactForm input,
+.contactForm textarea {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+    resize: vertical;
+    border-radius: 3px;
+}
+
+.modal {
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .contactForm {
+        width: 100%;
+        max-width: 90vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .contactContainer {
+        flex-direction: column-reverse;
+    }
+}
