@@ -51,8 +51,8 @@ const ProductsBySlugPage = ({data, page, category, maxPage}) => {
             <div style={{position: 'relative'}}>
                 <Slider data={[getHeroImage(category)]} />
                 <div className={styles.intro}>
-                    <h1>{`${category.charAt(0).toUpperCase()}${category.slice(1).replace('-', ' ')}`}</h1>
-                    <p>Berikut ini adalah produk kami dalam kategori {category.replace('-', ' ')}</p>
+                    <h1>{`${category.charAt(0).toUpperCase()}${category.slice(1).replace(/-/g, ' ')}`}</h1>
+                    <p>Berikut ini adalah produk kami dalam kategori {category.replace(/-/g, ' ')}</p>
                     <a href="#daftar" className="primary-btn">Lihat Selengkapnya</a>
                 </div>
             </div>

@@ -7,9 +7,9 @@ import CargoLiftImage from '@public/cargo-lift.jpg'
 import WireRopeHoistImage from '@public/wirerope-hoist.jpg'
 import PartsAccesoriesImage from '@public/parts-accesories.jpg'
 import Link from 'next/link'
-
+import ChainHoistImage1 from '@public/chain-hoist.jpeg'
+import WireRopeHoistImage1 from '@public/wirerope-hoist.jpeg'
 import ProductsBg from "@public/products-bg.jpg"
-import ImageContainer from '@components/ImageContainer'
 import AboutUs from '@components/AboutUs/AboutUs'
 
 export default function Home() {
@@ -45,7 +45,7 @@ export default function Home() {
             
         <ul className={styles.products}>
           <li>
-          <Image className={styles.productImage} src={HoistCraneImage} width={200} height={300} objectFit='cover' alt="Chain Hoist Kito Kapasitas 7,5 ton"/>
+          <Image className={styles.productImage} src={HoistCraneImage} width={200} height={300} objectFit='cover' alt="Hoist crane"/>
             <div className={styles.product}>
               <div className={styles.productDetail}>
                 <div>
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </li>
           <li>
-          <Image className={styles.productImage} src={CargoLiftImage} width={200} height={300} objectFit='cover' alt="Chain Hoist Kito Kapasitas 7,5 ton"/>
+          <Image className={styles.productImage} src={CargoLiftImage} width={200} height={300} objectFit='cover' alt="Cargo lift"/>
             <div className={styles.product}>
               <div className={styles.productDetail}> 
                 <div>
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
           </li>
           <li>
-          <Image className={styles.productImage} src={ChainHoistImage} width={200} height={300} objectFit='cover' alt="Chain Hoist Kito Kapasitas 7,5 ton"/>
+          <Image className={styles.productImage} src={ChainHoistImage1} width={200} height={300} objectFit='cover' alt="Chain Hoist Hitachi made in Japan"/>
             <div className={styles.product}>
               <div className={styles.productDetail}>
                 <div>
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
           </li>
           <li>
-          <Image className={styles.productImage} src={WireRopeHoistImage} width={200} height={300} objectFit='cover' alt="Chain Hoist Kito Kapasitas 7,5 ton"/>
+          <Image className={styles.productImage} src={WireRopeHoistImage1} width={200} height={300} objectFit='cover' alt="Wire rope hoist Nippon Hoist made in Japan"/>
             <div className={styles.product}>
               <div className={styles.productDetail}>
                 <div>
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
           </li>
           <li>
-          <Image className={styles.productImage} src={PartsAccesoriesImage} width={200} height={300} objectFit='cover' alt="Chain Hoist Kito Kapasitas 7,5 ton"/>
+          <Image className={styles.productImage} src={PartsAccesoriesImage} width={200} height={300} objectFit='cover' alt="Parts and accessories"/>
             <div className={styles.product}>
               <div className={styles.productDetail}>
                 <div>

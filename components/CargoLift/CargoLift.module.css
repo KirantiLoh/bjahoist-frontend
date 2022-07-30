@@ -1,0 +1,81 @@
+.main {
+    min-height: calc(100vh - 70px);
+}
+
+.main .title {
+    padding: 20px 0;
+}
+
+.introText {
+    margin: auto;
+    text-align: center;
+    max-width: 100ch;
+    font-size: 1.2rem;
+}
+
+.container {
+    position: relative;
+    display: grid;
+    width: 100%;
+}
+
+.container>* {
+    grid-column: 1;
+    grid-row: 1;
+    transition: .3s;
+}
+
+.container p {
+    margin: 20px;
+    max-width: 50ch;
+    word-wrap: break-word;
+}
+
+.pagination {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    list-style: none;
+    padding: 20px;
+    overflow: auto;
+}
+
+.pagination li {
+    font-size: 1.5rem;
+    transition: .3s;
+    cursor: pointer;
+    margin: 8px;
+    padding: 8px;
+    width: max-content;
+    border-bottom: 4px transparent solid;
+}
+
+.pagination li:hover {
+    border-bottom: 4px var(--secondary-color) solid;
+}
+
+.container h2,
+.storyImage {
+    margin: 20px;
+}
+
+.materialBahan,
+.rodaSangkar,
+.controlSystem {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 640px) {
+    .pagination,
+    .controlSystem,
+    .materialBahan,
+    .rodaSangkar {
+        flex-direction: column;
+        align-items: center;
+    }
+}

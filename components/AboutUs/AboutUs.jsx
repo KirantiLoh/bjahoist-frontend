@@ -54,24 +54,36 @@ const AboutUs = () => {
                     <h2>
                     Konstruksi baja & bangunan
                     </h2>
+                    <p>
+                    Kami menyediakan layanan konstruksi baja & bangunan untuk proyek perumahan dan komersial. Dari konsep awal hingga instalasi akhir, kami akan bersama Anda di setiap langkahnya
+                    </p>
                   </li>
                   <li>
                     <h1><FontAwesomeIcon icon={faTowerObservation} /></h1>
                     <h2>
                     Konstruksi hoist
                     </h2>
+                    <p>
+                      Kami dapat membuat hoist crane baru atau memodifikasi yang sudah ada, menggunakan peralatan dan perkakas canggih kami. Kami bangga dengan kemampuan kami untuk memberikan produk berkualitas tinggi tepat waktu dan sesuai anggaran
+                    </p>
                   </li>
                   <li>
                     <h1><FontAwesomeIcon icon={faElevator} /></h1>
                     <h2>
                     Pembuatan lift barang
                     </h2>
+                    <p>
+                    Kami dengan bangga menawarkan jasa pembuatan lift barang. Tim kami berdedikasi untuk kepuasan Anda, dan Anda dapat mempercayai kami untuk memberi Anda layanan berkualitas yang layak Anda dapatkan
+                    </p>
                   </li>
                   <li>
                     <h1><FontAwesomeIcon icon={faMoneyBillTransfer} /></h1>
                     <h2>
                     Penjualan hoist & spare part
                     </h2>
+                    <p>
+                    Kami menyediakan jasa penjualan spare part hoist & hoist merk hoist. Kami dapat menyediakan semua kebutuhan Anda dan memberikan Anda produk dengan kualitas terbaik dengan harga yang wajar
+                    </p>
                   </li>
                 </ul>
             </div>
