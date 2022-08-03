@@ -14,7 +14,7 @@ const CargoLift = ({data, category}) => {
     <div className={`container ${styles.main}`} id="daftar">
         <h1 className="title">Produk Kami</h1>
         <p className={styles.introText}>Cargo Lift / lift barang adalah solusi yang paling cocok untuk memindahkan material antar lantai (vertikal). Pada umumnya lift barang / cargo lift sangat cocok digunakan di toko, gudang atau pabrik. Cargo lift tidak hanya dapat dipasang di dalam ruangan tetapi juga dapat dipasang di luar ruangan. Penggunaannya juga sangat sederhana karena dilengkapi dengan pengontrol otomatis di setiap lantai. Dari segi keamanan juga sangat terjamin karena terdapat alat pengaman / safetylLock.</p>
-        <Products data={data} />
+        <Products data={data} brands={[]} />
         <div>
             <ul className={styles.pagination}>
                 <li style={{borderBottom: page === 0 ? '4px var(--secondary-color) solid' : '4px transparent solid'}} onClick={() => setPage(0)}>

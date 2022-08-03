@@ -10,6 +10,7 @@ const ChainHoist = ({data, category}) => {
     const [currentBrand, setCurrentBrand] = useState('')
 
     const getBrands = useCallback(async () => {
+        console.log('Getting brands')
         let response = await axios.get(`/products/${category}/brands`)
         let data = await response.data
         if (response.status === 200) {

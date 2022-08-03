@@ -17,7 +17,7 @@ return (
       <p className={styles.introText}>
         Di dalam dunia Industri yang modern saat ini keberadaan Hoist Crane sebagai alat Material Handling pada pabrik, workshop, dan warehouse sangat dibutuhkan. Sebagai solusi Material Handling Equipment Hoist Crane sudah teruji dapat meningkatkan produktifitas, profitabilitas, dan keamanan kerja. Tim kami akan membantu Anda memilih jenis crane yang terbaik untuk pabrik, workshop atau warehouse Anda. Berikut adalah jenis-jenis crane yang kami sediakan.
       </p>
-      <Products data={data} />
+      <Products data={data} brands={[]} />
         <div>
             <ul className={styles.pagination}>
                 <li style={{borderBottom: page === 0 ? '4px var(--secondary-color) solid' : '4px transparent solid'}} onClick={() => setPage(0)}>
@@ -67,7 +67,7 @@ return (
                     </ImageContainer>
                     <div>
                         <h2>Control Panel</h2>
-                        <p>Panel kontrol adalah pusat kendali dari seluruh sistem Derek. Untuk gerakan long stroke (pancaran depan ke belakang), kami menggunakan aplikasi Inverter dengan keunggulan sebagai berikut: Konsumsi daya lebih hemat. keselamatan kerja. Meminimalkan goyangan Saat crane mulai bekerja di bawah beban, akan menyebabkan goyangan pada hook, membahayakan operator dan kargo itu sendiri karena akselerasi motor tanpa inverter akan  cepat dan tidak merata. , menyebabkan goyangan. Dengan inverter, hal ini bisa diminimalisir karena start awal (akselerasi) crane menjadi sangat lunak sehingga kemungkinan goyangan lebih kecil. Kecepatan dapat disesuaikan Untuk proses manufaktur atau pemrosesan presisi tinggi (misalnya injection molding, pemasangan mesin turbin, dll) Oleh karena itu, dapat disimpulkan bahwa penggunaan inverter pada lifting crane sangat berguna bagi kontraktor. membuat biaya operasi menjadi efektif dan pada saat yang sama meningkatkan keamanan kerja. Panel kontrol ini juga dilengkapi dengan proteksi fasa yang diaktifkan jika  salah satu dari catu daya 380 V R, S, T gagal (kekurangan fasa) maka crane tidak dapat digunakan atau diaktifkan secara otomatis, hal ini dimaksudkan untuk mencegah keausan/kerusakan motor akibat untuk kehilangan daya fasa.</p>
+                        <p>Panel kontrol adalah pusat kendali dari seluruh sistem Derek. Untuk gerakan long stroke (pancaran depan ke belakang), kami menggunakan aplikasi Motor soft start system dengan keunggulan sebagai berikut: Konsumsi daya lebih hemat. keselamatan kerja. Meminimalkan goyangan Saat crane mulai bekerja di bawah beban, akan menyebabkan goyangan pada hook, membahayakan operator dan kargo itu sendiri karena akselerasi motor tanpa Motor soft start system akan  cepat dan tidak merata, menyebabkan goyangan. Dengan Motor soft start system, hal ini bisa diminimalisir karena start awal (akselerasi) crane menjadi sangat lunak sehingga kemungkinan goyangan lebih kecil. Kecepatan dapat disesuaikan Untuk proses manufaktur atau pemrosesan presisi tinggi (misalnya injection molding, pemasangan mesin turbin, dll). Panel kontrol ini juga dilengkapi dengan proteksi fasa yang diaktifkan jika  salah satu dari catu daya 380 V R, S, T gagal (kekurangan fasa) maka crane tidak dapat digunakan atau diaktifkan secara otomatis, hal ini dimaksudkan untuk mencegah keausan/kerusakan motor akibat untuk kehilangan daya fasa.</p>
                     </div>
                 </li>
             </ul>

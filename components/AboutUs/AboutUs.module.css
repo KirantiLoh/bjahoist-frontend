@@ -16,6 +16,7 @@
     grid-column: 1;
     grid-row: 1;
     transition: .3s;
+    overflow: hidden;
 }
 
 .container p {

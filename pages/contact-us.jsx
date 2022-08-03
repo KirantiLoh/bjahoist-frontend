@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
 import { Loader } from 'google-maps'
-import ImageContainer from '@components/ImageContainer'
 import ContactBg from 'public/why-img.jpg'
 import Image from 'next/image'
 import styles from '@styles/ContactUs.module.css'
 import ReCAPTCHA from 'react-google-recaptcha'
 import emailjs from '@emailjs/browser'
+import Head from 'next/head'
 
 const ContactUsPage = () => {
     const mapRef = useRef()
@@ -61,6 +61,15 @@ const ContactUsPage = () => {
 
   return (
     <div className={`page ${styles.contactPage}`}>
+      <Head>
+        <title>Hubungi BJA Hoist | Melayani jasa service hoist crane dan system electrical hoist crane serta pemasangan instalasi electrical hoist crane</title>
+        <meta name="description" content="BJA Hoist / bjahoist (Bintang Jaya Abadi) melayani jasa service hoist crane dan system electrical hoist crane, pemasangan instalasi electrical hoist crane, pembuatan cargo lift / lift barang, serta penjualan hoist crane,chain hoist, wire rope hoist, dan bagian atau aksesoris hoist" />
+        <meta name="google-site-verification" content="US3IM2SRg6OsimW5O8gtDI0TWPnf9rCFEvPbEeoXPGI" />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://bjahoist.com" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name='keyword' content='bjahoist, bja hoist, hoist, chain hoist, wire rope hoist, jual hoist second, hoist second, cargo lift, bintang jaya abadi, jual hoist murah, lift barang, beli hoist baru, hoist baru, servis hoist, servis hoist rusak, hoist crane, hitachi, nitchi, kito, jual hoist murah, hoist murah, hoist hitachi, hoist nitchi, hoist kito'/>
+      </Head>
         <Image style={{filter: 'brightness(.6)'}} src={ContactBg} alt="" layout='fill' objectFit='cover'/>
         <div className={styles.contactContainer}> 
         <div>
